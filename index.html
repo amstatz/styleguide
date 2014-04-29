@@ -5,6 +5,7 @@
 		<link type="text/css" rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" />
 		<link type="text/css" rel="stylesheet" href="css/foundation.css" media="screen, projection" />
 		<link type="text/css" rel="stylesheet" href="css/foundation-custom.css" media="screen, projection" />
+		<link type="text/css" rel="stylesheet" href="css/glyphicons.css" media="screen, projection" />
       
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
@@ -17,11 +18,55 @@
 <div class="row">
 	<div class="large-12 columns">
 	    <h1 class="big">amSTATZ Application Styleguide</h1>
-	    <h4>This is the styleguide for the application portion of amSTATZ.</h4>
+	    <h4>This is the style guide for the application portion of amSTATZ.</h4>
 	    <hr>
 	    <p>We are using the Foundation 5, the latest version. You can always refer to their <a href="http://foundation.zurb.com/docs/">docs</a> if you have detailed questions regarding a specific style of the framework.</p>
 		<hr>
+
+<!-- Logos -->
+		<h1>Logo</h1>
+		<p>These are the various ways the amSTATZ logo can be used. The logo color should <em>never</em> be any other color than white (#FFF) or blue (#1E96BC). The logo should never have a white background unless being used on a white page. Download logos <a href="https://s3.amazonaws.com/static.amstatz.com/images/corp/press/amstatz-assets.zip">here</a>.</p>
+<!-- Blue -->	
+		<div class="row">
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue-no-tag.png">
+			</div>
 		
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue.png">
+			</div>
+		
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue-stacked-no-tag.png">
+			</div>
+		
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue-stacked.png">
+			</div>
+		</div>
+		
+<!-- White -->	
+		<div class="row">
+			<div class="large-12 columns bg-standard" style="padding:10px 0;">
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white-no-tag.png">
+				</div>
+		
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white.png">
+				</div>
+		
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white-stacked-no-tag.png">
+				</div>
+		
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white-stacked.png">
+				</div>
+			</div>
+		</div>
+		<hr>
+	
 <!-- Colors -->	  
 	<div class="row" data-equalizer>
 		<div class="large-12 columns">
@@ -37,7 +82,8 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-standard&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 78% M: 26% Y: 16% K: 0</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
@@ -51,12 +97,14 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-secondary&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 43% M: 35% Y: 35% K: 1%</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
 				<h4>Light Gray - #E7E7E7</h4>
-				<div style="background-color:#E7E7E7; height: 50px; width: 50px; margin-bottom: 1em;"></div>
+				<div style="background-color:#E7E7E7; height: 50px; width: 50px; margin-bottom: 1em;"></div><br />
+				<p><strong>Print</strong> C: 8% M: 6% Y: 6% K: 0</p>
 			</div>
 		</div>
 	</div>
@@ -74,7 +122,8 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-alert&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 0 M: 90% Y: 99% K: 0</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
@@ -88,7 +137,8 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-warning&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 13% M: 18% Y: 100% K: 0</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
@@ -102,9 +152,11 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-success&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 61% M: 24% Y: 90% K: 6%</p>
 			</div>
 		</div>
+		
 	</div>
 	
 <!-- Typography -->	
@@ -141,6 +193,12 @@
 			<code class="language-html">
 				<span class="tag">&lt;<span class="title">div data-alert class</span>=<span class="value">&quot;alert-box alert radius&quot;</span>&gt;</span>
 			</code>
+			
+			<h4 class="top20">Info Alert</h4>
+			<div class="alert-box radius">Information! You have just been informed.</div>
+			<code class="language-html">
+				<span class="tag">&lt;<span class="title">div data-alert class</span>=<span class="value">&quot;alert-box radius&quot;</span>&gt;</span>
+			</code>
 	    </div>
 	</div>	
 	
@@ -149,13 +207,14 @@
 		<div class="large-12 columns">
 			<hr>
 			<h1>Tables</h1>
-			<p>Nothing special here. Tables do not need any special classes. This will change when we decide on a specific way to make them responsive.</p>
+			<p>These tables are responsive on a phone for up to 5 columns. No special class needs to be added to the table.</p>
 			<p>Link to Foundation <a href="http://foundation.zurb.com/docs/components/tables.html" target="blank">Tables</a></p>
 			<table>
 				<thead>
 					<tr>
 						<th width="200">Table Header</th>
 						<th>Table Header</th>
+						<th width="150">Table Header</th>
 						<th width="150">Table Header</th>
 						<th width="150">Table Header</th>
 				    </tr>
@@ -166,10 +225,12 @@
 						<td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
 						<td>Content Goes Here</td>
 						<td>Content Goes Here</td>
+						<td>Content Goes Here</td>
 					</tr>
 					<tr>
 						<td>Content Goes Here</td>
 						<td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+						<td>Content Goes Here</td>
 						<td>Content Goes Here</td>
 						<td>Content Goes Here</td>
 					</tr>
@@ -185,23 +246,31 @@
 			<h1>Buttons</h1>
 			<p>Link to Foundation <a href="http://foundation.zurb.com/docs/components/buttons.html" target="blank">Buttons</a></p>
 			
-			<div class="large-4 columns">
+			<div class="large-3 columns">
 				<h4>Call To Action</h4>
-				<a href="#" class="button round alert">Submit</a><br />
-				<code class="language-html">
-					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert&quot;</span>&gt;</span>
-				</code>
-			</div>
-			
-			<div class="large-4 columns">
-				<h4>Standard</h4>
-				<a href="#" class="button round">Skip to Dashboard</a><br />
+				<a href="#" class="button round">Submit</a><br />
 				<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round&quot;</span>&gt;</span>
 				</code>
 			</div>
 			
-			<div class="large-4 columns">
+			<div class="large-3 columns">
+				<h4>Standard</h4>
+				<a href="#" class="button round secondary">Skip to Dashboard</a><br />
+				<code class="language-html">
+					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round standard&quot;</span>&gt;</span>
+				</code>
+			</div>
+			
+			<div class="large-3 columns">
+				<h4>Delete</h4>
+				<a href="#" class="button round alert">Delete</a><br />
+				<code class="language-html">
+					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert&quot;</span>&gt;</span>
+				</code>
+			</div>
+			
+			<div class="large-3 columns">
 				<h4>Button in a Process</h4><br />
 				<a href="#" class="button round success">Next</a> <a href="#" class="button round disabled secondary">&#x2713; Completed</a><br />
 				<code class="language-html">
@@ -214,7 +283,7 @@
 	    	
 	    	<div class="large-4 columns">
 		    	<h4>Tiny</h4>
-		    	<a href="#" class="button round alert tiny">Submit</a><br />
+		    	<a href="#" class="button round tiny">Submit</a><br />
 		    	<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert tiny&quot;</span>&gt;</span>
 				</code>
@@ -222,7 +291,7 @@
 	    	
 	    	<div class="large-4 columns">
 	    		<h4>Small</h4>
-				<a href="#" class="button round small">Skip to Dashboard</a><br />
+				<a href="#" class="button round small secondary">Skip to Dashboard</a><br />
 				<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert small&quot;</span>&gt;</span>
 				</code>
@@ -238,7 +307,7 @@
 	    	
 	    	<div class="large-12 columns top20">
 	    		<h4>Disabled</h4>
-				<a href="#" class="button round alert disabled">Submit</a> <a href="#" class="button round disabled">Skip to Dashboard</a> <a href="#" class="button round success disabled">Next</a><br />
+				<a href="#" class="button round disabled">Submit</a> <a href="#" class="button round secondary disabled">Skip to Dashboard</a> <a href="#" class="button round alert disabled">Delete</a> <a href="#" class="button round success disabled">Next</a><br />
 	    		<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round disabled&quot;</span>&gt;</span>
 				</code>
@@ -374,6 +443,441 @@
 				<div style="padding-left:30px"><span class="tag">&lt;<span class="title">p&gt;</span>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</span>&lt;<span class="title">/h2&gt;</span></div>
 				&lt;/div&gt;
 			</code>
+		</div>
+	</div>
+
+<!-- icons -->	
+	<div class="row">
+		<div class="large-12 columns">
+		
+			<hr>
+			<h1>Icons</h1>
+<span class="icon-glass"></span>	&lt;span class="icon-glass"&gt;&lt;/span&gt; <br/>
+<span class="icon-leaf"></span>	&lt;span class="icon-leaf"&gt;&lt;/span&gt;	<br/>
+<span class="icon-dog"></span>	&lt;span class="icon-dog"&gt;&lt;/span&gt;	<br/>
+<span class="icon-user"></span>	&lt;span class="icon-user"&gt;&lt;/span&gt;	<br/>
+<span class="icon-girl"></span>	&lt;span class="icon-girl"&gt;&lt;/span&gt;	<br/>
+<span class="icon-car"></span>	&lt;span class="icon-car"&gt;&lt;/span&gt;	<br/>
+<span class="icon-user_add"></span>	&lt;span class="icon-user_add"&gt;&lt;/span&gt;	<br/>
+<span class="icon-user_remove"></span>	&lt;span class="icon-user_remove"&gt;&lt;/span&gt;	<br/>
+<span class="icon-film"></span>	&lt;span class="icon-film"&gt;&lt;/span&gt;	<br/>
+<span class="icon-magic"></span>	&lt;span class="icon-magic"&gt;&lt;/span&gt;	<br/>
+<span class="icon-envelope"></span>	&lt;span class="icon-envelope"&gt;&lt;/span&gt;	<br/>
+<span class="icon-camera"></span>	&lt;span class="icon-camera"&gt;&lt;/span&gt;	<br/>
+<span class="icon-heart"></span>	&lt;span class="icon-heart"&gt;&lt;/span&gt;	<br/>
+<span class="icon-beach_umbrella"></span>	&lt;span class="icon-beach_umbrella"&gt;&lt;/span&gt;	<br/>
+<span class="icon-train"></span>	&lt;span class="icon-train"&gt;&lt;/span&gt;	<br/>
+<span class="icon-print"></span>	&lt;span class="icon-print"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bin"></span>	&lt;span class="icon-bin"&gt;&lt;/span&gt;	<br/>
+<span class="icon-music"></span>	&lt;span class="icon-music"&gt;&lt;/span&gt;	<br/>
+<span class="icon-note"></span>	&lt;span class="icon-note"&gt;&lt;/span&gt;	<br/>
+<span class="icon-heart_empty"></span>	&lt;span class="icon-heart_empty"&gt;&lt;/span&gt;	<br/>
+<span class="icon-home"></span>	&lt;span class="icon-home"&gt;&lt;/span&gt;	<br/>
+<span class="icon-snowflake"></span>	&lt;span class="icon-snowflake"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fire"></span>	&lt;span class="icon-fire"&gt;&lt;/span&gt;	<br/>
+<span class="icon-magnet"></span>	&lt;span class="icon-magnet"&gt;&lt;/span&gt;	<br/>
+<span class="icon-parents"></span>	&lt;span class="icon-parents"&gt;&lt;/span&gt;	<br/>
+<span class="icon-binoculars"></span>	&lt;span class="icon-binoculars"&gt;&lt;/span&gt;	<br/>
+<span class="icon-road"></span>	&lt;span class="icon-road"&gt;&lt;/span&gt;	<br/>
+<span class="icon-search"></span>	&lt;span class="icon-search"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cars"></span>	&lt;span class="icon-cars"&gt;&lt;/span&gt;	<br/>
+<span class="icon-notes_2"></span>	&lt;span class="icon-notes_2"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pencil"></span>	&lt;span class="icon-pencil"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bus"></span>	&lt;span class="icon-bus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-wifi_alt"></span>	&lt;span class="icon-wifi_alt"&gt;&lt;/span&gt;	<br/>
+<span class="icon-luggage"></span>	&lt;span class="icon-luggage"&gt;&lt;/span&gt;	<br/>
+<span class="icon-old_man"></span>	&lt;span class="icon-old_man"&gt;&lt;/span&gt;	<br/>
+<span class="icon-woman"></span>	&lt;span class="icon-woman"&gt;&lt;/span&gt;	<br/>
+<span class="icon-file"></span>	&lt;span class="icon-file"&gt;&lt;/span&gt;	<br/>
+<span class="icon-coins"></span>	&lt;span class="icon-coins"&gt;&lt;/span&gt;	<br/>
+<span class="icon-airplane"></span>	&lt;span class="icon-airplane"&gt;&lt;/span&gt;	<br/>
+<span class="icon-notes"></span>	&lt;span class="icon-notes"&gt;&lt;/span&gt;	<br/>
+<span class="icon-stats"></span>	&lt;span class="icon-stats"&gt;&lt;/span&gt;	<br/>
+<span class="icon-charts"></span>	&lt;span class="icon-charts"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pie_chart"></span>	&lt;span class="icon-pie_chart"&gt;&lt;/span&gt;	<br/>
+<span class="icon-group"></span>	&lt;span class="icon-group"&gt;&lt;/span&gt;	<br/>
+<span class="icon-keys"></span>	&lt;span class="icon-keys"&gt;&lt;/span&gt;	<br/>
+<span class="icon-calendar"></span>	&lt;span class="icon-calendar"&gt;&lt;/span&gt;	<br/>
+<span class="icon-router"></span>	&lt;span class="icon-router"&gt;&lt;/span&gt;	<br/>
+<span class="icon-camera_small"></span>	&lt;span class="icon-camera_small"&gt;&lt;/span&gt;	<br/>
+<span class="icon-dislikes"></span>	&lt;span class="icon-dislikes"&gt;&lt;/span&gt;	<br/>
+<span class="icon-star"></span>	&lt;span class="icon-star"&gt;&lt;/span&gt;	<br/>
+<span class="icon-link"></span>	&lt;span class="icon-link"&gt;&lt;/span&gt;	<br/>
+<span class="icon-eye_open"></span>	&lt;span class="icon-eye_open"&gt;&lt;/span&gt;	<br/>
+<span class="icon-eye_close"></span>	&lt;span class="icon-eye_close"&gt;&lt;/span&gt;	<br/>
+<span class="icon-alarm"></span>	&lt;span class="icon-alarm"&gt;&lt;/span&gt;	<br/>
+<span class="icon-clock"></span>	&lt;span class="icon-clock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-stopwatch"></span>	&lt;span class="icon-stopwatch"&gt;&lt;/span&gt;	<br/>
+<span class="icon-projector"></span>	&lt;span class="icon-projector"&gt;&lt;/span&gt;	<br/>
+<span class="icon-history"></span>	&lt;span class="icon-history"&gt;&lt;/span&gt;	<br/>
+<span class="icon-truck"></span>	&lt;span class="icon-truck"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cargo"></span>	&lt;span class="icon-cargo"&gt;&lt;/span&gt;	<br/>
+<span class="icon-compass"></span>	&lt;span class="icon-compass"&gt;&lt;/span&gt;	<br/>
+<span class="icon-keynote"></span>	&lt;span class="icon-keynote"&gt;&lt;/span&gt;	<br/>
+<span class="icon-paperclip"></span>	&lt;span class="icon-paperclip"&gt;&lt;/span&gt;	<br/>
+<span class="icon-power"></span>	&lt;span class="icon-power"&gt;&lt;/span&gt;	<br/>
+<span class="icon-lightbulb"></span>	&lt;span class="icon-lightbulb"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tag"></span>	&lt;span class="icon-tag"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tags"></span>	&lt;span class="icon-tags"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cleaning"></span>	&lt;span class="icon-cleaning"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ruller"></span>	&lt;span class="icon-ruller"&gt;&lt;/span&gt;	<br/>
+<span class="icon-gift"></span>	&lt;span class="icon-gift"&gt;&lt;/span&gt;	<br/>
+<span class="icon-umbrella"></span>	&lt;span class="icon-umbrella"&gt;&lt;/span&gt;	<br/>
+<span class="icon-book"></span>	&lt;span class="icon-book"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bookmark"></span>	&lt;span class="icon-bookmark"&gt;&lt;/span&gt;	<br/>
+<span class="icon-wifi"></span>	&lt;span class="icon-wifi"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cup"></span>	&lt;span class="icon-cup"&gt;&lt;/span&gt;	<br/>
+<span class="icon-stroller"></span>	&lt;span class="icon-stroller"&gt;&lt;/span&gt;	<br/>
+<span class="icon-headphones"></span>	&lt;span class="icon-headphones"&gt;&lt;/span&gt;	<br/>
+<span class="icon-headset"></span>	&lt;span class="icon-headset"&gt;&lt;/span&gt;	<br/>
+<span class="icon-warning_sign"></span>	&lt;span class="icon-warning_sign"&gt;&lt;/span&gt;	<br/>
+<span class="icon-signal"></span>	&lt;span class="icon-signal"&gt;&lt;/span&gt;	<br/>
+<span class="icon-retweet"></span>	&lt;span class="icon-retweet"&gt;&lt;/span&gt;	<br/>
+<span class="icon-refresh"></span>	&lt;span class="icon-refresh"&gt;&lt;/span&gt;	<br/>
+<span class="icon-roundabout"></span>	&lt;span class="icon-roundabout"&gt;&lt;/span&gt;	<br/>
+<span class="icon-random"></span>	&lt;span class="icon-random"&gt;&lt;/span&gt;	<br/>
+<span class="icon-heat"></span>	&lt;span class="icon-heat"&gt;&lt;/span&gt;	<br/>
+<span class="icon-repeat"></span>	&lt;span class="icon-repeat"&gt;&lt;/span&gt;	<br/>
+<span class="icon-display"></span>	&lt;span class="icon-display"&gt;&lt;/span&gt;	<br/>
+<span class="icon-log_book"></span>	&lt;span class="icon-log_book"&gt;&lt;/span&gt;	<br/>
+<span class="icon-adress_book"></span>	&lt;span class="icon-adress_book"&gt;&lt;/span&gt;	<br/>
+<span class="icon-building"></span>	&lt;span class="icon-building"&gt;&lt;/span&gt;	<br/>
+<span class="icon-eyedropper"></span>	&lt;span class="icon-eyedropper"&gt;&lt;/span&gt;	<br/>
+<span class="icon-adjust"></span>	&lt;span class="icon-adjust"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tint"></span>	&lt;span class="icon-tint"&gt;&lt;/span&gt;	<br/>
+<span class="icon-crop"></span>	&lt;span class="icon-crop"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vector_path_square"></span>	&lt;span class="icon-vector_path_square"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vector_path_circle"></span>	&lt;span class="icon-vector_path_circle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vector_path_polygon"></span>	&lt;span class="icon-vector_path_polygon"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vector_path_line"></span>	&lt;span class="icon-vector_path_line"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vector_path_curve"></span>	&lt;span class="icon-vector_path_curve"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vector_path_all"></span>	&lt;span class="icon-vector_path_all"&gt;&lt;/span&gt;	<br/>
+<span class="icon-font"></span>	&lt;span class="icon-font"&gt;&lt;/span&gt;	<br/>
+<span class="icon-italic"></span>	&lt;span class="icon-italic"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bold"></span>	&lt;span class="icon-bold"&gt;&lt;/span&gt;	<br/>
+<span class="icon-text_underline"></span>	&lt;span class="icon-text_underline"&gt;&lt;/span&gt;	<br/>
+<span class="icon-text_strike"></span>	&lt;span class="icon-text_strike"&gt;&lt;/span&gt;	<br/>
+<span class="icon-text_height"></span>	&lt;span class="icon-text_height"&gt;&lt;/span&gt;	<br/>
+<span class="icon-text_width"></span>	&lt;span class="icon-text_width"&gt;&lt;/span&gt;	<br/>
+<span class="icon-text_resize"></span>	&lt;span class="icon-text_resize"&gt;&lt;/span&gt;	<br/>
+<span class="icon-left_indent"></span>	&lt;span class="icon-left_indent"&gt;&lt;/span&gt;	<br/>
+<span class="icon-right_indent"></span>	&lt;span class="icon-right_indent"&gt;&lt;/span&gt;	<br/>
+<span class="icon-align_left"></span>	&lt;span class="icon-align_left"&gt;&lt;/span&gt;	<br/>
+<span class="icon-align_center"></span>	&lt;span class="icon-align_center"&gt;&lt;/span&gt;	<br/>
+<span class="icon-align_right"></span>	&lt;span class="icon-align_right"&gt;&lt;/span&gt;	<br/>
+<span class="icon-justify"></span>	&lt;span class="icon-justify"&gt;&lt;/span&gt;	<br/>
+<span class="icon-list"></span>	&lt;span class="icon-list"&gt;&lt;/span&gt;	<br/>
+<span class="icon-text_smaller"></span>	&lt;span class="icon-text_smaller"&gt;&lt;/span&gt;	<br/>
+<span class="icon-text_bigger"></span>	&lt;span class="icon-text_bigger"&gt;&lt;/span&gt;	<br/>
+<span class="icon-embed"></span>	&lt;span class="icon-embed"&gt;&lt;/span&gt;	<br/>
+<span class="icon-embed_close"></span>	&lt;span class="icon-embed_close"&gt;&lt;/span&gt;	<br/>
+<span class="icon-table"></span>	&lt;span class="icon-table"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_full"></span>	&lt;span class="icon-message_full"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_empty"></span>	&lt;span class="icon-message_empty"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_in"></span>	&lt;span class="icon-message_in"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_out"></span>	&lt;span class="icon-message_out"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_plus"></span>	&lt;span class="icon-message_plus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_minus"></span>	&lt;span class="icon-message_minus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_ban"></span>	&lt;span class="icon-message_ban"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_flag"></span>	&lt;span class="icon-message_flag"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_lock"></span>	&lt;span class="icon-message_lock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-message_new"></span>	&lt;span class="icon-message_new"&gt;&lt;/span&gt;	<br/>
+<span class="icon-inbox"></span>	&lt;span class="icon-inbox"&gt;&lt;/span&gt;	<br/>
+<span class="icon-inbox_plus"></span>	&lt;span class="icon-inbox_plus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-inbox_minus"></span>	&lt;span class="icon-inbox_minus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-inbox_lock"></span>	&lt;span class="icon-inbox_lock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-inbox_in"></span>	&lt;span class="icon-inbox_in"&gt;&lt;/span&gt;	<br/>
+<span class="icon-inbox_out"></span>	&lt;span class="icon-inbox_out"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cogwheel"></span>	&lt;span class="icon-cogwheel"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cogwheels"></span>	&lt;span class="icon-cogwheels"&gt;&lt;/span&gt;	<br/>
+<span class="icon-picture"></span>	&lt;span class="icon-picture"&gt;&lt;/span&gt;	<br/>
+<span class="icon-adjust_alt"></span>	&lt;span class="icon-adjust_alt"&gt;&lt;/span&gt;	<br/>
+<span class="icon-database_lock"></span>	&lt;span class="icon-database_lock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-database_plus"></span>	&lt;span class="icon-database_plus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-database_minus"></span>	&lt;span class="icon-database_minus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-database_ban"></span>	&lt;span class="icon-database_ban"&gt;&lt;/span&gt;	<br/>
+<span class="icon-folder_open"></span>	&lt;span class="icon-folder_open"&gt;&lt;/span&gt;	<br/>
+<span class="icon-folder_plus"></span>	&lt;span class="icon-folder_plus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-folder_minus"></span>	&lt;span class="icon-folder_minus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-folder_lock"></span>	&lt;span class="icon-folder_lock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-folder_flag"></span>	&lt;span class="icon-folder_flag"&gt;&lt;/span&gt;	<br/>
+<span class="icon-folder_new"></span>	&lt;span class="icon-folder_new"&gt;&lt;/span&gt;	<br/>
+<span class="icon-edit"></span>	&lt;span class="icon-edit"&gt;&lt;/span&gt;	<br/>
+<span class="icon-new_window"></span>	&lt;span class="icon-new_window"&gt;&lt;/span&gt;	<br/>
+<span class="icon-check"></span>	&lt;span class="icon-check"&gt;&lt;/span&gt;	<br/>
+<span class="icon-unchecked"></span>	&lt;span class="icon-unchecked"&gt;&lt;/span&gt;	<br/>
+<span class="icon-more_windows"></span>	&lt;span class="icon-more_windows"&gt;&lt;/span&gt;	<br/>
+<span class="icon-show_big_thumbnails"></span>	&lt;span class="icon-show_big_thumbnails"&gt;&lt;/span&gt;	<br/>
+<span class="icon-show_thumbnails"></span>	&lt;span class="icon-show_thumbnails"&gt;&lt;/span&gt;	<br/>
+<span class="icon-show_thumbnails_with_lines"></span>	&lt;span class="icon-show_thumbnails_with_lines"&gt;&lt;/span&gt;	<br/>
+<span class="icon-show_lines"></span>	&lt;span class="icon-show_lines"&gt;&lt;/span&gt;	<br/>
+<span class="icon-playlist"></span>	&lt;span class="icon-playlist"&gt;&lt;/span&gt;	<br/>
+<span class="icon-imac"></span>	&lt;span class="icon-imac"&gt;&lt;/span&gt;	<br/>
+<span class="icon-macbook"></span>	&lt;span class="icon-macbook"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ipad"></span>	&lt;span class="icon-ipad"&gt;&lt;/span&gt;	<br/>
+<span class="icon-iphone"></span>	&lt;span class="icon-iphone"&gt;&lt;/span&gt;	<br/>
+<span class="icon-iphone_transfer"></span>	&lt;span class="icon-iphone_transfer"&gt;&lt;/span&gt;	<br/>
+<span class="icon-iphone_exchange"></span>	&lt;span class="icon-iphone_exchange"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ipod"></span>	&lt;span class="icon-ipod"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ipod_shuffle"></span>	&lt;span class="icon-ipod_shuffle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ear_plugs"></span>	&lt;span class="icon-ear_plugs"&gt;&lt;/span&gt;	<br/>
+<span class="icon-phone"></span>	&lt;span class="icon-phone"&gt;&lt;/span&gt;	<br/>
+<span class="icon-step_backward"></span>	&lt;span class="icon-step_backward"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fast_backward"></span>	&lt;span class="icon-fast_backward"&gt;&lt;/span&gt;	<br/>
+<span class="icon-rewind"></span>	&lt;span class="icon-rewind"&gt;&lt;/span&gt;	<br/>
+<span class="icon-play"></span>	&lt;span class="icon-play"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pause"></span>	&lt;span class="icon-pause"&gt;&lt;/span&gt;	<br/>
+<span class="icon-stop"></span>	&lt;span class="icon-stop"&gt;&lt;/span&gt;	<br/>
+<span class="icon-forward"></span>	&lt;span class="icon-forward"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fast_forward"></span>	&lt;span class="icon-fast_forward"&gt;&lt;/span&gt;	<br/>
+<span class="icon-step_forward"></span>	&lt;span class="icon-step_forward"&gt;&lt;/span&gt;	<br/>
+<span class="icon-eject"></span>	&lt;span class="icon-eject"&gt;&lt;/span&gt;	<br/>
+<span class="icon-facetime_video"></span>	&lt;span class="icon-facetime_video"&gt;&lt;/span&gt;	<br/>
+<span class="icon-download_alt"></span>	&lt;span class="icon-download_alt"&gt;&lt;/span&gt;	<br/>
+<span class="icon-mute"></span>	&lt;span class="icon-mute"&gt;&lt;/span&gt;	<br/>
+<span class="icon-volume_down"></span>	&lt;span class="icon-volume_down"&gt;&lt;/span&gt;	<br/>
+<span class="icon-volume_up"></span>	&lt;span class="icon-volume_up"&gt;&lt;/span&gt;	<br/>
+<span class="icon-screenshot"></span>	&lt;span class="icon-screenshot"&gt;&lt;/span&gt;	<br/>
+<span class="icon-move"></span>	&lt;span class="icon-move"&gt;&lt;/span&gt;	<br/>
+<span class="icon-more"></span>	&lt;span class="icon-more"&gt;&lt;/span&gt;	<br/>
+<span class="icon-brightness_reduce"></span>	&lt;span class="icon-brightness_reduce"&gt;&lt;/span&gt;	<br/>
+<span class="icon-brightness_increase"></span>	&lt;span class="icon-brightness_increase"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_plus"></span>	&lt;span class="icon-circle_plus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_minus"></span>	&lt;span class="icon-circle_minus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_remove"></span>	&lt;span class="icon-circle_remove"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_ok"></span>	&lt;span class="icon-circle_ok"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_question_mark"></span>	&lt;span class="icon-circle_question_mark"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_info"></span>	&lt;span class="icon-circle_info"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_exclamation_mark"></span>	&lt;span class="icon-circle_exclamation_mark"&gt;&lt;/span&gt;	<br/>
+<span class="icon-remove"></span>	&lt;span class="icon-remove"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ok"></span>	&lt;span class="icon-ok"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ban"></span>	&lt;span class="icon-ban"&gt;&lt;/span&gt;	<br/>
+<span class="icon-download"></span>	&lt;span class="icon-download"&gt;&lt;/span&gt;	<br/>
+<span class="icon-upload"></span>	&lt;span class="icon-upload"&gt;&lt;/span&gt;	<br/>
+<span class="icon-shopping_cart"></span>	&lt;span class="icon-shopping_cart"&gt;&lt;/span&gt;	<br/>
+<span class="icon-lock"></span>	&lt;span class="icon-lock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-unlock"></span>	&lt;span class="icon-unlock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-electricity"></span>	&lt;span class="icon-electricity"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ok_2"></span>	&lt;span class="icon-ok_2"&gt;&lt;/span&gt;	<br/>
+<span class="icon-remove_2"></span>	&lt;span class="icon-remove_2"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cart_out"></span>	&lt;span class="icon-cart_out"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cart_in"></span>	&lt;span class="icon-cart_in"&gt;&lt;/span&gt;	<br/>
+<span class="icon-left_arrow"></span>	&lt;span class="icon-left_arrow"&gt;&lt;/span&gt;	<br/>
+<span class="icon-right_arrow"></span>	&lt;span class="icon-right_arrow"&gt;&lt;/span&gt;	<br/>
+<span class="icon-down_arrow"></span>	&lt;span class="icon-down_arrow"&gt;&lt;/span&gt;	<br/>
+<span class="icon-up_arrow"></span>	&lt;span class="icon-up_arrow"&gt;&lt;/span&gt;	<br/>
+<span class="icon-resize_small"></span>	&lt;span class="icon-resize_small"&gt;&lt;/span&gt;	<br/>
+<span class="icon-resize_full"></span>	&lt;span class="icon-resize_full"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_arrow_left"></span>	&lt;span class="icon-circle_arrow_left"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_arrow_right"></span>	&lt;span class="icon-circle_arrow_right"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_arrow_top"></span>	&lt;span class="icon-circle_arrow_top"&gt;&lt;/span&gt;	<br/>
+<span class="icon-circle_arrow_down"></span>	&lt;span class="icon-circle_arrow_down"&gt;&lt;/span&gt;	<br/>
+<span class="icon-play_button"></span>	&lt;span class="icon-play_button"&gt;&lt;/span&gt;	<br/>
+<span class="icon-unshare"></span>	&lt;span class="icon-unshare"&gt;&lt;/span&gt;	<br/>
+<span class="icon-share"></span>	&lt;span class="icon-share"&gt;&lt;/span&gt;	<br/>
+<span class="icon-chevron-right"></span>	&lt;span class="icon-chevron-right"&gt;&lt;/span&gt;	<br/>
+<span class="icon-chevron-left"></span>	&lt;span class="icon-chevron-left"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bluetooth"></span>	&lt;span class="icon-bluetooth"&gt;&lt;/span&gt;	<br/>
+<span class="icon-euro"></span>	&lt;span class="icon-euro"&gt;&lt;/span&gt;	<br/>
+<span class="icon-usd"></span>	&lt;span class="icon-usd"&gt;&lt;/span&gt;	<br/>
+<span class="icon-gbp"></span>	&lt;span class="icon-gbp"&gt;&lt;/span&gt;	<br/>
+<span class="icon-retweet_2"></span>	&lt;span class="icon-retweet_2"&gt;&lt;/span&gt;	<br/>
+<span class="icon-moon"></span>	&lt;span class="icon-moon"&gt;&lt;/span&gt;	<br/>
+<span class="icon-sun"></span>	&lt;span class="icon-sun"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cloud"></span>	&lt;span class="icon-cloud"&gt;&lt;/span&gt;	<br/>
+<span class="icon-direction"></span>	&lt;span class="icon-direction"&gt;&lt;/span&gt;	<br/>
+<span class="icon-brush"></span>	&lt;span class="icon-brush"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pen"></span>	&lt;span class="icon-pen"&gt;&lt;/span&gt;	<br/>
+<span class="icon-zoom_in"></span>	&lt;span class="icon-zoom_in"&gt;&lt;/span&gt;	<br/>
+<span class="icon-zoom_out"></span>	&lt;span class="icon-zoom_out"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pin"></span>	&lt;span class="icon-pin"&gt;&lt;/span&gt;	<br/>
+<span class="icon-albums"></span>	&lt;span class="icon-albums"&gt;&lt;/span&gt;	<br/>
+<span class="icon-rotation_lock"></span>	&lt;span class="icon-rotation_lock"&gt;&lt;/span&gt;	<br/>
+<span class="icon-flash"></span>	&lt;span class="icon-flash"&gt;&lt;/span&gt;	<br/>
+<span class="icon-google_maps"></span>	&lt;span class="icon-google_maps"&gt;&lt;/span&gt;	<br/>
+<span class="icon-anchor"></span>	&lt;span class="icon-anchor"&gt;&lt;/span&gt;	<br/>
+<span class="icon-conversation"></span>	&lt;span class="icon-conversation"&gt;&lt;/span&gt;	<br/>
+<span class="icon-chat"></span>	&lt;span class="icon-chat"&gt;&lt;/span&gt;	<br/>
+<span class="icon-male"></span>	&lt;span class="icon-male"&gt;&lt;/span&gt;	<br/>
+<span class="icon-female"></span>	&lt;span class="icon-female"&gt;&lt;/span&gt;	<br/>
+<span class="icon-asterisk"></span>	&lt;span class="icon-asterisk"&gt;&lt;/span&gt;	<br/>
+<span class="icon-plus"></span>	&lt;span class="icon-plus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-minus"></span>	&lt;span class="icon-minus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-divide"></span>	&lt;span class="icon-divide"&gt;&lt;/span&gt;	<br/>
+<span class="icon-snorkel_diving"></span>	&lt;span class="icon-snorkel_diving"&gt;&lt;/span&gt;	<br/>
+<span class="icon-scuba_diving"></span>	&lt;span class="icon-scuba_diving"&gt;&lt;/span&gt;	<br/>
+<span class="icon-oxygen_bottle"></span>	&lt;span class="icon-oxygen_bottle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fins"></span>	&lt;span class="icon-fins"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fishes"></span>	&lt;span class="icon-fishes"&gt;&lt;/span&gt;	<br/>
+<span class="icon-boat"></span>	&lt;span class="icon-boat"&gt;&lt;/span&gt;	<br/>
+<span class="icon-delete"></span>	&lt;span class="icon-delete"&gt;&lt;/span&gt;	<br/>
+<span class="icon-sheriffs_star"></span>	&lt;span class="icon-sheriffs_star"&gt;&lt;/span&gt;	<br/>
+<span class="icon-qrcode"></span>	&lt;span class="icon-qrcode"&gt;&lt;/span&gt;	<br/>
+<span class="icon-barcode"></span>	&lt;span class="icon-barcode"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pool"></span>	&lt;span class="icon-pool"&gt;&lt;/span&gt;	<br/>
+<span class="icon-buoy"></span>	&lt;span class="icon-buoy"&gt;&lt;/span&gt;	<br/>
+<span class="icon-spade"></span>	&lt;span class="icon-spade"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bank"></span>	&lt;span class="icon-bank"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vcard"></span>	&lt;span class="icon-vcard"&gt;&lt;/span&gt;	<br/>
+<span class="icon-electrical_plug"></span>	&lt;span class="icon-electrical_plug"&gt;&lt;/span&gt;	<br/>
+<span class="icon-flag"></span>	&lt;span class="icon-flag"&gt;&lt;/span&gt;	<br/>
+<span class="icon-credit_card"></span>	&lt;span class="icon-credit_card"&gt;&lt;/span&gt;	<br/>
+<span class="icon-keyboard-wireless"></span>	&lt;span class="icon-keyboard-wireless"&gt;&lt;/span&gt;	<br/>
+<span class="icon-keyboard-wired"></span>	&lt;span class="icon-keyboard-wired"&gt;&lt;/span&gt;	<br/>
+<span class="icon-shield"></span>	&lt;span class="icon-shield"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ring"></span>	&lt;span class="icon-ring"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cake"></span>	&lt;span class="icon-cake"&gt;&lt;/span&gt;	<br/>
+<span class="icon-drink"></span>	&lt;span class="icon-drink"&gt;&lt;/span&gt;	<br/>
+<span class="icon-beer"></span>	&lt;span class="icon-beer"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fast_food"></span>	&lt;span class="icon-fast_food"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cutlery"></span>	&lt;span class="icon-cutlery"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pizza"></span>	&lt;span class="icon-pizza"&gt;&lt;/span&gt;	<br/>
+<span class="icon-birthday_cake"></span>	&lt;span class="icon-birthday_cake"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tablet"></span>	&lt;span class="icon-tablet"&gt;&lt;/span&gt;	<br/>
+<span class="icon-settings"></span>	&lt;span class="icon-settings"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bullets"></span>	&lt;span class="icon-bullets"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cardio"></span>	&lt;span class="icon-cardio"&gt;&lt;/span&gt;	<br/>
+<span class="icon-t-shirt"></span>	&lt;span class="icon-t-shirt"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pants"></span>	&lt;span class="icon-pants"&gt;&lt;/span&gt;	<br/>
+<span class="icon-sweater"></span>	&lt;span class="icon-sweater"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fabric"></span>	&lt;span class="icon-fabric"&gt;&lt;/span&gt;	<br/>
+<span class="icon-leather"></span>	&lt;span class="icon-leather"&gt;&lt;/span&gt;	<br/>
+<span class="icon-scissors"></span>	&lt;span class="icon-scissors"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bomb"></span>	&lt;span class="icon-bomb"&gt;&lt;/span&gt;	<br/>
+<span class="icon-skull"></span>	&lt;span class="icon-skull"&gt;&lt;/span&gt;	<br/>
+<span class="icon-celebration"></span>	&lt;span class="icon-celebration"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tea_kettle"></span>	&lt;span class="icon-tea_kettle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-french_press"></span>	&lt;span class="icon-french_press"&gt;&lt;/span&gt;	<br/>
+<span class="icon-coffe_cup"></span>	&lt;span class="icon-coffe_cup"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pot"></span>	&lt;span class="icon-pot"&gt;&lt;/span&gt;	<br/>
+<span class="icon-grater"></span>	&lt;span class="icon-grater"&gt;&lt;/span&gt;	<br/>
+<span class="icon-kettle"></span>	&lt;span class="icon-kettle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hospital"></span>	&lt;span class="icon-hospital"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hospital_h"></span>	&lt;span class="icon-hospital_h"&gt;&lt;/span&gt;	<br/>
+<span class="icon-microphone"></span>	&lt;span class="icon-microphone"&gt;&lt;/span&gt;	<br/>
+<span class="icon-webcam"></span>	&lt;span class="icon-webcam"&gt;&lt;/span&gt;	<br/>
+<span class="icon-temple_christianity_church"></span>	&lt;span class="icon-temple_christianity_church"&gt;&lt;/span&gt;	<br/>
+<span class="icon-temple_islam"></span>	&lt;span class="icon-temple_islam"&gt;&lt;/span&gt;	<br/>
+<span class="icon-temple_hindu"></span>	&lt;span class="icon-temple_hindu"&gt;&lt;/span&gt;	<br/>
+<span class="icon-temple_buddhist"></span>	&lt;span class="icon-temple_buddhist"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bicycle"></span>	&lt;span class="icon-bicycle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-life_preserver"></span>	&lt;span class="icon-life_preserver"&gt;&lt;/span&gt;	<br/>
+<span class="icon-share_alt"></span>	&lt;span class="icon-share_alt"&gt;&lt;/span&gt;	<br/>
+<span class="icon-comments"></span>	&lt;span class="icon-comments"&gt;&lt;/span&gt;	<br/>
+<span class="icon-flower"></span>	&lt;span class="icon-flower"&gt;&lt;/span&gt;	<br/>
+<span class="icon-baseball"></span>	&lt;span class="icon-baseball"&gt;&lt;/span&gt;	<br/>
+<span class="icon-rugby"></span>	&lt;span class="icon-rugby"&gt;&lt;/span&gt;	<br/>
+<span class="icon-ax"></span>	&lt;span class="icon-ax"&gt;&lt;/span&gt;	<br/>
+<span class="icon-table_tennis"></span>	&lt;span class="icon-table_tennis"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bowling"></span>	&lt;span class="icon-bowling"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tree_conifer"></span>	&lt;span class="icon-tree_conifer"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tree_deciduous"></span>	&lt;span class="icon-tree_deciduous"&gt;&lt;/span&gt;	<br/>
+<span class="icon-more_items"></span>	&lt;span class="icon-more_items"&gt;&lt;/span&gt;	<br/>
+<span class="icon-sort"></span>	&lt;span class="icon-sort"&gt;&lt;/span&gt;	<br/>
+<span class="icon-filter"></span>	&lt;span class="icon-filter"&gt;&lt;/span&gt;	<br/>
+<span class="icon-gamepad"></span>	&lt;span class="icon-gamepad"&gt;&lt;/span&gt;	<br/>
+<span class="icon-playing_dices"></span>	&lt;span class="icon-playing_dices"&gt;&lt;/span&gt;	<br/>
+<span class="icon-calculator"></span>	&lt;span class="icon-calculator"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tie"></span>	&lt;span class="icon-tie"&gt;&lt;/span&gt;	<br/>
+<span class="icon-wallet"></span>	&lt;span class="icon-wallet"&gt;&lt;/span&gt;	<br/>
+<span class="icon-piano"></span>	&lt;span class="icon-piano"&gt;&lt;/span&gt;	<br/>
+<span class="icon-sampler"></span>	&lt;span class="icon-sampler"&gt;&lt;/span&gt;	<br/>
+<span class="icon-podium"></span>	&lt;span class="icon-podium"&gt;&lt;/span&gt;	<br/>
+<span class="icon-soccer_ball"></span>	&lt;span class="icon-soccer_ball"&gt;&lt;/span&gt;	<br/>
+<span class="icon-blog"></span>	&lt;span class="icon-blog"&gt;&lt;/span&gt;	<br/>
+<span class="icon-dashboard"></span>	&lt;span class="icon-dashboard"&gt;&lt;/span&gt;	<br/>
+<span class="icon-certificate"></span>	&lt;span class="icon-certificate"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bell"></span>	&lt;span class="icon-bell"&gt;&lt;/span&gt;	<br/>
+<span class="icon-candle"></span>	&lt;span class="icon-candle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pushpin"></span>	&lt;span class="icon-pushpin"&gt;&lt;/span&gt;	<br/>
+<span class="icon-iphone_shake"></span>	&lt;span class="icon-iphone_shake"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pin_flag"></span>	&lt;span class="icon-pin_flag"&gt;&lt;/span&gt;	<br/>
+<span class="icon-turtle"></span>	&lt;span class="icon-turtle"&gt;&lt;/span&gt;	<br/>
+<span class="icon-rabbit"></span>	&lt;span class="icon-rabbit"&gt;&lt;/span&gt;	<br/>
+<span class="icon-globe"></span>	&lt;span class="icon-globe"&gt;&lt;/span&gt;	<br/>
+<span class="icon-briefcase"></span>	&lt;span class="icon-briefcase"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hdd"></span>	&lt;span class="icon-hdd"&gt;&lt;/span&gt;	<br/>
+<span class="icon-thumbs_up"></span>	&lt;span class="icon-thumbs_up"&gt;&lt;/span&gt;	<br/>
+<span class="icon-thumbs_down"></span>	&lt;span class="icon-thumbs_down"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hand_right"></span>	&lt;span class="icon-hand_right"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hand_left"></span>	&lt;span class="icon-hand_left"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hand_up"></span>	&lt;span class="icon-hand_up"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hand_down"></span>	&lt;span class="icon-hand_down"&gt;&lt;/span&gt;	<br/>
+<span class="icon-fullscreen"></span>	&lt;span class="icon-fullscreen"&gt;&lt;/span&gt;	<br/>
+<span class="icon-shopping_bag"></span>	&lt;span class="icon-shopping_bag"&gt;&lt;/span&gt;	<br/>
+<span class="icon-book_open"></span>	&lt;span class="icon-book_open"&gt;&lt;/span&gt;	<br/>
+<span class="icon-nameplate"></span>	&lt;span class="icon-nameplate"&gt;&lt;/span&gt;	<br/>
+<span class="icon-nameplate_alt"></span>	&lt;span class="icon-nameplate_alt"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vases"></span>	&lt;span class="icon-vases"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bullhorn"></span>	&lt;span class="icon-bullhorn"&gt;&lt;/span&gt;	<br/>
+<span class="icon-dumbbell"></span>	&lt;span class="icon-dumbbell"&gt;&lt;/span&gt;	<br/>
+<span class="icon-suitcase"></span>	&lt;span class="icon-suitcase"&gt;&lt;/span&gt;	<br/>
+<span class="icon-file_import"></span>	&lt;span class="icon-file_import"&gt;&lt;/span&gt;	<br/>
+<span class="icon-file_export"></span>	&lt;span class="icon-file_export"&gt;&lt;/span&gt;	<br/>
+<span class="icon-bug"></span>	&lt;span class="icon-bug"&gt;&lt;/span&gt;	<br/>
+<span class="icon-crown"></span>	&lt;span class="icon-crown"&gt;&lt;/span&gt;	<br/>
+<span class="icon-smoking"></span>	&lt;span class="icon-smoking"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cloud-upload"></span>	&lt;span class="icon-cloud-upload"&gt;&lt;/span&gt;	<br/>
+<span class="icon-cloud-download"></span>	&lt;span class="icon-cloud-download"&gt;&lt;/span&gt;	<br/>
+<span class="icon-restart"></span>	&lt;span class="icon-restart"&gt;&lt;/span&gt;	<br/>
+<span class="icon-security_camera"></span>	&lt;span class="icon-security_camera"&gt;&lt;/span&gt;	<br/>
+<span class="icon-expand"></span>	&lt;span class="icon-expand"&gt;&lt;/span&gt;	<br/>
+<span class="icon-collapse"></span>	&lt;span class="icon-collapse"&gt;&lt;/span&gt;	<br/>
+<span class="icon-collapse_top"></span>	&lt;span class="icon-collapse_top"&gt;&lt;/span&gt;	<br/>
+<span class="icon-globe_af"></span>	&lt;span class="icon-globe_af"&gt;&lt;/span&gt;	<br/>
+<span class="icon-global"></span>	&lt;span class="icon-global"&gt;&lt;/span&gt;	<br/>
+<span class="icon-spray"></span>	&lt;span class="icon-spray"&gt;&lt;/span&gt;	<br/>
+<span class="icon-nails"></span>	&lt;span class="icon-nails"&gt;&lt;/span&gt;	<br/>
+<span class="icon-claw_hammer"></span>	&lt;span class="icon-claw_hammer"&gt;&lt;/span&gt;	<br/>
+<span class="icon-classic_hammer"></span>	&lt;span class="icon-classic_hammer"&gt;&lt;/span&gt;	<br/>
+<span class="icon-hand_saw"></span>	&lt;span class="icon-hand_saw"&gt;&lt;/span&gt;	<br/>
+<span class="icon-riflescope"></span>	&lt;span class="icon-riflescope"&gt;&lt;/span&gt;	<br/>
+<span class="icon-electrical_socket_eu"></span>	&lt;span class="icon-electrical_socket_eu"&gt;&lt;/span&gt;	<br/>
+<span class="icon-electrical_socket_us"></span>	&lt;span class="icon-electrical_socket_us"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pinterest"></span>	&lt;span class="icon-pinterest"&gt;&lt;/span&gt;	<br/>
+<span class="icon-dropbox"></span>	&lt;span class="icon-dropbox"&gt;&lt;/span&gt;	<br/>
+<span class="icon-google_plus"></span>	&lt;span class="icon-google_plus"&gt;&lt;/span&gt;	<br/>
+<span class="icon-jolicloud"></span>	&lt;span class="icon-jolicloud"&gt;&lt;/span&gt;	<br/>
+<span class="icon-yahoo"></span>	&lt;span class="icon-yahoo"&gt;&lt;/span&gt;	<br/>
+<span class="icon-blogger"></span>	&lt;span class="icon-blogger"&gt;&lt;/span&gt;	<br/>
+<span class="icon-picasa"></span>	&lt;span class="icon-picasa"&gt;&lt;/span&gt;	<br/>
+<span class="icon-amazon"></span>	&lt;span class="icon-amazon"&gt;&lt;/span&gt;	<br/>
+<span class="icon-tumblr"></span>	&lt;span class="icon-tumblr"&gt;&lt;/span&gt;	<br/>
+<span class="icon-wordpress"></span>	&lt;span class="icon-wordpress"&gt;&lt;/span&gt;	<br/>
+<span class="icon-instapaper"></span>	&lt;span class="icon-instapaper"&gt;&lt;/span&gt;	<br/>
+<span class="icon-evernote"></span>	&lt;span class="icon-evernote"&gt;&lt;/span&gt;	<br/>
+<span class="icon-xing"></span>	&lt;span class="icon-xing"&gt;&lt;/span&gt;	<br/>
+<span class="icon-zootool"></span>	&lt;span class="icon-zootool"&gt;&lt;/span&gt;	<br/>
+<span class="icon-dribbble"></span>	&lt;span class="icon-dribbble"&gt;&lt;/span&gt;	<br/>
+<span class="icon-deviantart"></span>	&lt;span class="icon-deviantart"&gt;&lt;/span&gt;	<br/>
+<span class="icon-read_it_later"></span>	&lt;span class="icon-read_it_later"&gt;&lt;/span&gt;	<br/>
+<span class="icon-linked_in"></span>	&lt;span class="icon-linked_in"&gt;&lt;/span&gt;	<br/>
+<span class="icon-forrst"></span>	&lt;span class="icon-forrst"&gt;&lt;/span&gt;	<br/>
+<span class="icon-pinboard"></span>	&lt;span class="icon-pinboard"&gt;&lt;/span&gt;	<br/>
+<span class="icon-behance"></span>	&lt;span class="icon-behance"&gt;&lt;/span&gt;	<br/>
+<span class="icon-github"></span>	&lt;span class="icon-github"&gt;&lt;/span&gt;	<br/>
+<span class="icon-youtube"></span>	&lt;span class="icon-youtube"&gt;&lt;/span&gt;	<br/>
+<span class="icon-skitch"></span>	&lt;span class="icon-skitch"&gt;&lt;/span&gt;	<br/>
+<span class="icon-foursquare"></span>	&lt;span class="icon-foursquare"&gt;&lt;/span&gt;	<br/>
+<span class="icon-quora"></span>	&lt;span class="icon-quora"&gt;&lt;/span&gt;	<br/>
+<span class="icon-badoo"></span>	&lt;span class="icon-badoo"&gt;&lt;/span&gt;	<br/>
+<span class="icon-spotify"></span>	&lt;span class="icon-spotify"&gt;&lt;/span&gt;	<br/>
+<span class="icon-stumbleupon"></span>	&lt;span class="icon-stumbleupon"&gt;&lt;/span&gt;	<br/>
+<span class="icon-readability"></span>	&lt;span class="icon-readability"&gt;&lt;/span&gt;	<br/>
+<span class="icon-facebook"></span>	&lt;span class="icon-facebook"&gt;&lt;/span&gt;	<br/>
+<span class="icon-twitter"></span>	&lt;span class="icon-twitter"&gt;&lt;/span&gt;	<br/>
+<span class="icon-instagram"></span>	&lt;span class="icon-instagram"&gt;&lt;/span&gt;	<br/>
+<span class="icon-posterous_spaces"></span>	&lt;span class="icon-posterous_spaces"&gt;&lt;/span&gt;	<br/>
+<span class="icon-vimeo"></span>	&lt;span class="icon-vimeo"&gt;&lt;/span&gt;	<br/>
+<span class="icon-flickr"></span>	&lt;span class="icon-flickr"&gt;&lt;/span&gt;	<br/>
+<span class="icon-last_fm"></span>	&lt;span class="icon-last_fm"&gt;&lt;/span&gt;	<br/>
+<span class="icon-rss"></span>	&lt;span class="icon-rss"&gt;&lt;/span&gt;	<br/>
+<span class="icon-skype"></span>	&lt;span class="icon-skype"&gt;&lt;/span&gt;	<br/>
+<span class="icon-e-mail"></span>	&lt;span class="icon-e-mail"&gt;&lt;/span&gt;	<br/>
+
+<h2>Colors</h2>
+<span class="icon-rss icon-gray"></span>	&lt;span class="icon-rss icon-gray"&gt;&lt;/span&gt;	<br/>
+<span class="icon-rss icon-a"></span>	&lt;span class="icon-rss icon-a"&gt;&lt;/span&gt;	<br/>
 		</div>
 	</div>
 	
