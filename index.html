@@ -18,11 +18,55 @@
 <div class="row">
 	<div class="large-12 columns">
 	    <h1 class="big">amSTATZ Application Styleguide</h1>
-	    <h4>This is the styleguide for the application portion of amSTATZ.</h4>
+	    <h4>This is the style guide for the application portion of amSTATZ.</h4>
 	    <hr>
 	    <p>We are using the Foundation 5, the latest version. You can always refer to their <a href="http://foundation.zurb.com/docs/">docs</a> if you have detailed questions regarding a specific style of the framework.</p>
 		<hr>
+
+<!-- Logos -->
+		<h1>Logo</h1>
+		<p>These are the various ways the amSTATZ logo can be used. The logo color should <em>never</em> be any other color than white (#FFF) or blue (#1E96BC). The logo should never have a white background unless being used on a white page. Download logos <a href="https://s3.amazonaws.com/static.amstatz.com/images/corp/press/amstatz-assets.zip">here</a>.</p>
+<!-- Blue -->	
+		<div class="row">
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue-no-tag.png">
+			</div>
 		
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue.png">
+			</div>
+		
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue-stacked-no-tag.png">
+			</div>
+		
+			<div class="large-3 columns">
+				<img src="images/amstatz-logo-blue-stacked.png">
+			</div>
+		</div>
+		
+<!-- White -->	
+		<div class="row">
+			<div class="large-12 columns bg-standard" style="padding:10px 0;">
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white-no-tag.png">
+				</div>
+		
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white.png">
+				</div>
+		
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white-stacked-no-tag.png">
+				</div>
+		
+				<div class="large-3 columns">
+					<img src="images/amstatz-logo-white-stacked.png">
+				</div>
+			</div>
+		</div>
+		<hr>
+	
 <!-- Colors -->	  
 	<div class="row" data-equalizer>
 		<div class="large-12 columns">
@@ -38,7 +82,8 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-standard&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 78% M: 26% Y: 16% K: 0</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
@@ -52,12 +97,14 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-secondary&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 43% M: 35% Y: 35% K: 1%</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
 				<h4>Light Gray - #E7E7E7</h4>
-				<div style="background-color:#E7E7E7; height: 50px; width: 50px; margin-bottom: 1em;"></div>
+				<div style="background-color:#E7E7E7; height: 50px; width: 50px; margin-bottom: 1em;"></div><br />
+				<p><strong>Print</strong> C: 8% M: 6% Y: 6% K: 0</p>
 			</div>
 		</div>
 	</div>
@@ -75,7 +122,8 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-alert&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 0 M: 90% Y: 99% K: 0</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
@@ -89,7 +137,8 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-warning&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 13% M: 18% Y: 100% K: 0</p>
 			</div>
 			
 			<div class="panel reverse border large-4 columns" data-equalizer-watch>
@@ -103,9 +152,11 @@
 				<div class="top10"><strong>Background:</strong><br />
 					<code class="language-html">
 						<span class="tag">&lt;<span class="title">div class</span>=<span class="value">&quot;bg-success&quot;</span>&gt;</span>
-					</code><br /></div>
+					</code><br /></div><br />
+					<p><strong>Print</strong> C: 61% M: 24% Y: 90% K: 6%</p>
 			</div>
 		</div>
+		
 	</div>
 	
 <!-- Typography -->	
@@ -142,6 +193,12 @@
 			<code class="language-html">
 				<span class="tag">&lt;<span class="title">div data-alert class</span>=<span class="value">&quot;alert-box alert radius&quot;</span>&gt;</span>
 			</code>
+			
+			<h4 class="top20">Info Alert</h4>
+			<div class="alert-box radius">Information! You have just been informed.</div>
+			<code class="language-html">
+				<span class="tag">&lt;<span class="title">div data-alert class</span>=<span class="value">&quot;alert-box radius&quot;</span>&gt;</span>
+			</code>
 	    </div>
 	</div>	
 	
@@ -150,13 +207,14 @@
 		<div class="large-12 columns">
 			<hr>
 			<h1>Tables</h1>
-			<p>Nothing special here. Tables do not need any special classes. This will change when we decide on a specific way to make them responsive.</p>
+			<p>These tables are responsive on a phone for up to 5 columns. No special class needs to be added to the table.</p>
 			<p>Link to Foundation <a href="http://foundation.zurb.com/docs/components/tables.html" target="blank">Tables</a></p>
 			<table>
 				<thead>
 					<tr>
 						<th width="200">Table Header</th>
 						<th>Table Header</th>
+						<th width="150">Table Header</th>
 						<th width="150">Table Header</th>
 						<th width="150">Table Header</th>
 				    </tr>
@@ -167,10 +225,12 @@
 						<td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
 						<td>Content Goes Here</td>
 						<td>Content Goes Here</td>
+						<td>Content Goes Here</td>
 					</tr>
 					<tr>
 						<td>Content Goes Here</td>
 						<td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+						<td>Content Goes Here</td>
 						<td>Content Goes Here</td>
 						<td>Content Goes Here</td>
 					</tr>
@@ -186,23 +246,31 @@
 			<h1>Buttons</h1>
 			<p>Link to Foundation <a href="http://foundation.zurb.com/docs/components/buttons.html" target="blank">Buttons</a></p>
 			
-			<div class="large-4 columns">
+			<div class="large-3 columns">
 				<h4>Call To Action</h4>
-				<a href="#" class="button round alert">Submit</a><br />
-				<code class="language-html">
-					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert&quot;</span>&gt;</span>
-				</code>
-			</div>
-			
-			<div class="large-4 columns">
-				<h4>Standard</h4>
-				<a href="#" class="button round">Skip to Dashboard</a><br />
+				<a href="#" class="button round">Submit</a><br />
 				<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round&quot;</span>&gt;</span>
 				</code>
 			</div>
 			
-			<div class="large-4 columns">
+			<div class="large-3 columns">
+				<h4>Standard</h4>
+				<a href="#" class="button round secondary">Skip to Dashboard</a><br />
+				<code class="language-html">
+					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round standard&quot;</span>&gt;</span>
+				</code>
+			</div>
+			
+			<div class="large-3 columns">
+				<h4>Delete</h4>
+				<a href="#" class="button round alert">Delete</a><br />
+				<code class="language-html">
+					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert&quot;</span>&gt;</span>
+				</code>
+			</div>
+			
+			<div class="large-3 columns">
 				<h4>Button in a Process</h4><br />
 				<a href="#" class="button round success">Next</a> <a href="#" class="button round disabled secondary">&#x2713; Completed</a><br />
 				<code class="language-html">
@@ -215,7 +283,7 @@
 	    	
 	    	<div class="large-4 columns">
 		    	<h4>Tiny</h4>
-		    	<a href="#" class="button round alert tiny">Submit</a><br />
+		    	<a href="#" class="button round tiny">Submit</a><br />
 		    	<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert tiny&quot;</span>&gt;</span>
 				</code>
@@ -223,7 +291,7 @@
 	    	
 	    	<div class="large-4 columns">
 	    		<h4>Small</h4>
-				<a href="#" class="button round small">Skip to Dashboard</a><br />
+				<a href="#" class="button round small secondary">Skip to Dashboard</a><br />
 				<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round alert small&quot;</span>&gt;</span>
 				</code>
@@ -239,7 +307,7 @@
 	    	
 	    	<div class="large-12 columns top20">
 	    		<h4>Disabled</h4>
-				<a href="#" class="button round alert disabled">Submit</a> <a href="#" class="button round disabled">Skip to Dashboard</a> <a href="#" class="button round success disabled">Next</a><br />
+				<a href="#" class="button round disabled">Submit</a> <a href="#" class="button round secondary disabled">Skip to Dashboard</a> <a href="#" class="button round alert disabled">Delete</a> <a href="#" class="button round success disabled">Next</a><br />
 	    		<code class="language-html">
 					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button round disabled&quot;</span>&gt;</span>
 				</code>
@@ -377,13 +445,14 @@
 			</code>
 		</div>
 	</div>
-	
+
+<!-- icons -->	
 	<div class="row">
 		<div class="large-12 columns">
+		
 			<hr>
 			<h1>Icons</h1>
-			<h2>Usage</h2>
-<span class="icon-glass"></span>	&lt;span class="icon-glass"&gt;&lt;/span&gt;	<br/>
+<span class="icon-glass"></span>	&lt;span class="icon-glass"&gt;&lt;/span&gt; <br/>
 <span class="icon-leaf"></span>	&lt;span class="icon-leaf"&gt;&lt;/span&gt;	<br/>
 <span class="icon-dog"></span>	&lt;span class="icon-dog"&gt;&lt;/span&gt;	<br/>
 <span class="icon-user"></span>	&lt;span class="icon-user"&gt;&lt;/span&gt;	<br/>
@@ -806,7 +875,7 @@
 <span class="icon-skype"></span>	&lt;span class="icon-skype"&gt;&lt;/span&gt;	<br/>
 <span class="icon-e-mail"></span>	&lt;span class="icon-e-mail"&gt;&lt;/span&gt;	<br/>
 
-			<h2>Colors</h2>
+<h2>Colors</h2>
 <span class="icon-rss icon-gray"></span>	&lt;span class="icon-rss icon-gray"&gt;&lt;/span&gt;	<br/>
 <span class="icon-rss icon-a"></span>	&lt;span class="icon-rss icon-a"&gt;&lt;/span&gt;	<br/>
 		</div>
