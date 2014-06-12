@@ -5,4 +5,4 @@ This is a working document which the amSTATZ team created to share internally. I
 
 Thanks to [Editorially](https://github.com/Editorially/styleguide) for the starting point.
 
-© 2014 Amstatz, LLC.
+© 2014 Amstatz Inc.
