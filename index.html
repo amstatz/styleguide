@@ -216,9 +216,9 @@
 						<label>Last Name <small>Required</small>
 							<input type="text" placeholder="Only if needs further explanation">
 						</label>
+						<button type="button" class="button radius small secondary">Cancel</button>
+						<button type="button" class="button radius small">Save</button>
 				</fieldset>
-				<button type="button" class="button radius small secondary">Cancel</button>
-				<button type="button" class="button radius small">Save</button>
 			</form>	
 			<p>Cancel and Save buttons should be aligned left with the Save button on the right. This setup translates best for mobile.</p>
 			<code class="language-html">
@@ -238,10 +238,11 @@
 
 				
 				<div style="padding-left:30px"><span class="tag">&lt;<span class="title">/fieldset</span>&gt;</span></div>
-				<span class="tag">&lt;<span class="title">/form</span>&gt;</span><br />
-				
 				<span class="tag">&lt;<span class="title">button</span> type=<span class="value">&quot;submit&quot; class=&quot;button small radius secondary cancel-action&quot;</span>&gt;Cancel<span class="tag">&lt;<span class="title">/button</span>&gt;</span></span><br />
 				<span class="tag">&lt;<span class="title">button</span> type=<span class="value">&quot;submit&quot; class=&quot;button small radius save-action&quot;</span>&gt;Save<span class="tag">&lt;<span class="title">/button</span>&gt;</span></span>
+
+				<span class="tag">&lt;<span class="title">/form</span>&gt;</span><br />
+				
 			</code>
 		</div>
 	</div>
@@ -252,9 +253,9 @@
 		<div class="large-12 columns">
 			<hr>
 			<h1>Tables</h1>
-			<p>These tables are responsive on a phone for up to 5 columns. No special class needs to be added to the table.</p>
+			<p>Add class name "table-compact" to make a table responsive for mobile devices.</p>
 			<p>Link to Foundation <a href="http://foundation.zurb.com/docs/components/tables.html" target="blank">Tables</a></p>
-			<table>
+			<table class="table-compact">
 				<thead>
 					<tr>
 						<th width="200">Table Header</th>
@@ -362,7 +363,9 @@
 	    		<h4>3 Buttons</h4>
 				<a href="#" class="button secondary radius">Cancel</a> <a href="#" class="button radius">Save</a> <a href="#" class="button radius success">Upload Data</a><br />
 	    		<code class="language-html">
-					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button radius&quot;</span>&gt;</span>
+					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button radius secondary &quot;</span>&gt;</span>
+					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button radius &quot;</span>&gt;</span>
+					<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;link&quot; class=&quot;button radius success &quot;</span>&gt;</span>
 				</code>
 	    	</div>
 	    </div>
