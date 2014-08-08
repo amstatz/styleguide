@@ -10,6 +10,7 @@ body {font-family: 'Source Sans Pro', sans-serif !important; color:#333;}
 }
 .footer, .push {height: 4em; clear: both;}
 .hidden {display:none !important;}
+.styleguide p {margin-bottom:5px;}
 
 /* Special Call-ins */
 @import foundation;
@@ -93,6 +94,20 @@ ul.off-canvas-list li a:hover {background:none;}
 .side-nav li a {color:#999 !important;}
 
 /* Icons */
+.icon-round {	
+	display: inline-block;
+	width:50px;
+	height:50px;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	text-align: center;
+	color:#fff;
+	font-size:1.5rem;
+	padding:7px;
+}
+.icon-round.dark-secondary.medium {background:#666; padding:18px 10px 10px 10px; font-size:2.25rem; width:70px; height:70px;}
+
 a.dashboard {
 	background:transparent url(/resources/images/icons/nav/nav-dashboard.png) bottom left no-repeat;
 	display:block;
@@ -120,6 +135,9 @@ a.fitness {
 	text-indent:40px;
 }
 
+.icon-small {font-size:1.25rem;}
+.icon-label > span:before {display:inline-block; position:absolute;}
+.icon-label > span {margin-right: 25px;}
 
 /* Accordion */
 .accordion .content {border-left:1px solid #e8e8e8; border-right:1px solid #e8e8e8;}
