@@ -569,7 +569,7 @@ hr.nm {margin:0;}
 .panel.primary {background-color:#1E96BC; padding:4.0rem 0;}
 .panel.primary h1, .panel.primary h2, .panel.primary h3, .panel.primary h4, .panel.primary h5, .panel.primary p {color:#fff !important;}
 
-.panel.alert {background-color:#f04124; padding:4.0rem 0;}
+.panel.alert {background-color:#f04124; color:#fff;}
 .panel.alert h1, .panel.alert h3, .panel.alert h5, .panel.alert p {color:#fff !important;}
 .panel.success {background-color:#6f954b; padding:4.0rem 0;}
 
