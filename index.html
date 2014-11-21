@@ -165,7 +165,7 @@
     				<div style="background-color:#6F4A94; height: 50px; width: 50px; margin-bottom: 1em;"></div>
     					<p><strong>Print</strong> C: 25% M: 50% Y: 0 K: 42%</p>
     			</div>
-			
+			</div>
   
     	</div>	
 	
@@ -480,7 +480,37 @@
     	    	</div>
     	    </div>
     	</div>
-		
+    	
+<!-- Tooltips -->	
+    	<div class="row">
+    		<div class="large-12 columns">
+    			<hr>
+    			<h1>Tooltips</h1>
+    			<p>Tooltips can be included to provide additional description text on hover.</p>
+    			<div class="row">
+    				<div class="large-12 columns">
+    					<span data-tooltip data-options="hover_delay: 100;" aria-haspopup="true" title="hi" class="">
+						<i class="icon-circle_info"></i>
+					</span>
+    					<div id="myModal" class="reveal-modal medium" data-reveal>
+    						<h2>Modal Title</h2>
+    						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod ligula neque, tristique tincidunt dolor blandit sed. Aliquam ac mollis leo. Nam vel viverra dui. Curabitur et varius elit,</p>
+      						<a class="close-reveal-modal">&#215;</a>
+    					</div>
+    				</div>
+    			</div>
+			
+    			<code class="language-html">
+    				<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;#&quot; class=&quot;button round&quot;</span> data-reveal-id="nameModal"&gt;Example Modal&lt;/a&gt;</span><br />
+    				<span class="tag">&lt;<span class="title">div id</span>=<span class="value">&quot;nameModal&quot; class=&quot;reveal-modal  [tiny small medium large xlarge]&quot;</span> data-reveal&gt;</span><br />
+    				<div style="padding-left:30px"><span class="tag">&lt;<span class="title">h2&gt;</span>Modal Title</span>&lt;<span class="title">/h2&gt;</span></div>
+    				<div style="padding-left:30px"><span class="tag">&lt;<span class="title">p&gt;</span>Content will go here that says something.</span>&lt;<span class="title">/h2&gt;</span></div>
+    			 &lt;/div&gt;
+    			</code>
+			
+    	    </div>
+    	</div>
+    			
 <!-- Page Grid -->	
     	<div class="row">
     		<div class="large-12 columns">
