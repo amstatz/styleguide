@@ -187,6 +187,25 @@ button.success:hover, button.success:focus, button.success:hover, button.success
     transition: background-color 300ms linear;
 }
 
+/* Tooltip */
+.icon-circle_info,  {
+	webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+	transition: color 300ms linear;
+}
+i.icon-circle_info:hover {
+	color: #666666;
+	webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;	
+	transition: color 300ms linear;
+}
+
+
+
 /* Footer */
 #footer {background-color: #333; padding:40px; color:#999; font-size:12px; height: auto; font-style:normal; line-height:1.5em;}
 #footer a {color:#fff;}
