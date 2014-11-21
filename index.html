@@ -2,16 +2,17 @@
 <html>
 	<head>
 		<title>amSTATZ: Style Guide</TITLE>
-		<link type="text/css" rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" />
+		<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" />
 		<link type="text/css" rel="stylesheet" href="css/foundation.css" media="screen, projection" />
 		<link type="text/css" rel="stylesheet" href="css/foundation-custom.css" media="screen, projection" />
 		<link type="text/css" rel="stylesheet" href="css/glyphicons.css" media="screen, projection" />
       	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 		<script src="js/foundation.js" type="text/javascript"></script>
 		<script src="js/foundation.reveal.js" type="text/javascript"></script>
 		<script src="js/modernizr.js" type="text/javascript"></script>
+		<script src="js/foundation.tooltip.js" type="text/javascript"></script>
 	</head>
     <body>
 
@@ -489,25 +490,11 @@
     			<p>Tooltips can be included to provide additional description text on hover.</p>
     			<div class="row">
     				<div class="large-12 columns">
-    					<span data-tooltip data-options="hover_delay: 100;" aria-haspopup="true" title="hi" class="">
+    					<span data-tooltip data-options="" aria-haspopup="true" title="This is a snippet of information.">
 						<i class="icon-circle_info"></i>
 					</span>
-    					<div id="myModal" class="reveal-modal medium" data-reveal>
-    						<h2>Modal Title</h2>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce euismod ligula neque, tristique tincidunt dolor blandit sed. Aliquam ac mollis leo. Nam vel viverra dui. Curabitur et varius elit,</p>
-      						<a class="close-reveal-modal">&#215;</a>
-    					</div>
     				</div>
     			</div>
-			
-    			<code class="language-html">
-    				<span class="tag">&lt;<span class="title">a href</span>=<span class="value">&quot;#&quot; class=&quot;button round&quot;</span> data-reveal-id="nameModal"&gt;Example Modal&lt;/a&gt;</span><br />
-    				<span class="tag">&lt;<span class="title">div id</span>=<span class="value">&quot;nameModal&quot; class=&quot;reveal-modal  [tiny small medium large xlarge]&quot;</span> data-reveal&gt;</span><br />
-    				<div style="padding-left:30px"><span class="tag">&lt;<span class="title">h2&gt;</span>Modal Title</span>&lt;<span class="title">/h2&gt;</span></div>
-    				<div style="padding-left:30px"><span class="tag">&lt;<span class="title">p&gt;</span>Content will go here that says something.</span>&lt;<span class="title">/h2&gt;</span></div>
-    			 &lt;/div&gt;
-    			</code>
-			
     	    </div>
     	</div>
     			
@@ -1205,6 +1192,8 @@
     		</div>
     		
     	</div>
-        
-   </body>
+			<script>
+				 $(document).foundation();
+			</script>   
+	   </body>
 </html>
