@@ -37,6 +37,11 @@ body {font-family: 'Source Sans Pro', sans-serif !important; color:#333;}
 	-webkit-border-radius: 125px;
 	border:1px solid #ccc;
 }
+
+ul.side-nav a:hover {
+color: #1E96BC !important;
+}
+
 .wrap {word-wrap: break-word;}
 
 /* Top Nav: Desktop */
