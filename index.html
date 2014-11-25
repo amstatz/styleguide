@@ -13,6 +13,12 @@
 		<script src="js/foundation.reveal.js" type="text/javascript"></script>
 		<script src="js/modernizr.js" type="text/javascript"></script>
 		<script src="js/foundation.tooltip.js" type="text/javascript"></script>
+		<style>
+		.subnav a {
+		font-size: .9rem !important;
+		padding-left: 25px !important;
+		}
+		</style>
 		</head>
     <body>
     <div class="row large-2 columns show-for-xlarge-up" style="position:fixed">
@@ -23,8 +29,10 @@
 	  <li><a href="#typography">Typography</a></li>
 	  <li><a href="#alerts">Alerts</a></li>
 	  <li><a href="#forms">Forms</a></li>
+	  <li class="subnav"><a href="#format-forms">Formatting a Form</a></li>	  
 	  <li><a href="#tables">Tables</a></li>
 	  <li><a href="#buttons">Buttons</a></li>
+	  <li class="subnav"><a href="#links-buttons">Links vs Buttons</a></li>	  	  
 	  <li><a href="#tooltips">Tooltips</a></li>
 	  <li><a href="#grid">Standard Page Grid</a></li>
 	  <li><a href="#modal">Modal</a></li>
@@ -39,7 +47,6 @@
   <ul class="title-area">
     <!-- Title Area -->
     <li class="name">
-
     </li>
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href=""><span></span></a></li>
@@ -55,8 +62,10 @@
 		  <li><a href="#typography">Typography</a></li>
 		  <li><a href="#alerts">Alerts</a></li>
 		  <li><a href="#forms">Forms</a></li>
+	 	  <li><a href="#format-forms">Formatting a Form</a></li>	  		  
 		  <li><a href="#tables">Tables</a></li>
 		  <li><a href="#buttons">Buttons</a></li>
+	  	  <li><a href="#links-buttons">Links vs Buttons</a></li>	  	  		  
 		  <li><a href="#tooltips">Tooltips</a></li>
 		  <li><a href="#grid">Standard Page Grid</a></li>
 		  <li><a href="#modal">Modal</a></li>
@@ -310,7 +319,7 @@
     	<div class="row">
     		<hr>
     		<div class="large-12 columns">
-    			<h1>Formatting a Form</h1>
+    			<a href="#" name="format-forms"><h2>Formatting a Form</h2></a>
     				<form onsubmit="return false;" class="contact-form" data-abide>
 						<div class="row">
 							<div class="large-6 columns">
@@ -453,8 +462,7 @@
     			<hr>
     			<a href="#" name="buttons"><h1>Buttons</h1></a>
     			<p>The blue color should be used for primary buttons and grey for secondary buttons.  The red buttons should be used for delete buttons.  If there are three buttons, the green may be used as a secondary button.<br><br>  Link to Foundation <a href="http://foundation.zurb.com/docs/components/buttons.html" target="blank">Buttons</a></p>
-				<h2>Links vs Buttons</h2>
-				<p>Buttons should be used for actions on a webpage.  For example, if there are options to edit, delete, or create information, use a button.  Links should "go somewhere" on a page.  Whenever a user is navigating to a new webpage on a site, use a link.  If a link goes to a webpage outside of the amSTATZ system, direct the user to a new tab using "_blank."</p>
+
     			<div class="large-3 columns">
     				<h4>Call To Action</h4>
     				<a href="#" class="button small radius">Submit</a><br />
@@ -533,7 +541,14 @@
     	    	</div>
     	    </div>
     	</div>
-    	
+<!--Links vs Buttons-->
+		<div class="row">
+			<div class="large-12 columns">
+			<hr>
+			<a href="#" name="links-buttons"><h2>Links vs Buttons</h2></a>
+				<p>Buttons should be used for actions on a webpage.  For example, if there are options to edit, delete, or create information, use a button.  Links should "go somewhere" on a page.  Whenever a user is navigating to a new webpage on a site, use a link.  If a link goes to a webpage outside of the amSTATZ system, direct the user to a new tab using "_blank."</p>
+		 	</div>
+		 </div>   	
 <!-- Tooltips -->	
     	<div class="row">
     		<div class="large-12 columns">
@@ -838,9 +853,6 @@
                 <p><i class="icon-adjust_alt"></i> &lt;i class="icon-adjust_alt"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-database_lock"></i> &lt;i class="icon-database_lock"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-database_plus"></i> &lt;i class="icon-database_plus"&gt;&lt;/i&gt;</p>
-            </div>
-        
-			<div class="large-4 columns">                
                 <p><i class="icon-database_minus"></i> &lt;i class="icon-database_minus"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-database_ban"></i> &lt;i class="icon-database_ban"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-folder_open"></i> &lt;i class="icon-folder_open"&gt;&lt;/i&gt;</p>
@@ -868,10 +880,13 @@
                 <p><i class="icon-ipod"></i> &lt;i class="icon-ipod"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-ipod_shuffle"></i> &lt;i class="icon-ipod_shuffle"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-ear_plugs"></i> &lt;i class="icon-ear_plugs"&gt;&lt;/i&gt;</p>
-                <p><i class="icon-phone"></i> &lt;i class="icon-phone"&gt;&lt;/i&gt;</p>
+                <p><i class="icon-record"></i> &lt;i class="icon-record"&gt;&lt;/i&gt;</p>
+            </div>
+        
+			<div class="large-4 columns">
                 <p><i class="icon-step_backward"></i> &lt;i class="icon-step_backward"&gt;&lt;/i&gt;</p>
-                <p><i class="icon-fast_backward"></i> &lt;i class="icon-fast_backward"&gt;&lt;/i&gt;</p>
-                <p><i class="icon-rewind"></i> &lt;i class="icon-rewind"&gt;&lt;/i&gt;</p>
+                <p><i class="icon-fast_backward"></i> &lt;i class="icon-fast_backward"&gt;&lt;/i&gt;</p>			
+                <p><i class="icon-rewind"></i> &lt;i class="icon-rewind"&gt;&lt;/i&gt;</p>                			                
                 <p><i class="icon-play"></i> &lt;i class="icon-play"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-pause"></i> &lt;i class="icon-pause"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-stop"></i> &lt;i class="icon-stop"&gt;&lt;/i&gt;</p>
@@ -980,9 +995,6 @@
                 <p><i class="icon-cutlery"></i> &lt;i class="icon-cutlery"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-pizza"></i> &lt;i class="icon-pizza"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-birthday_cake"></i> &lt;i class="icon-birthday_cake"&gt;&lt;/i&gt;</p>
-			</div>                
-                
-            <div class="large-4 columns">
                 <p><i class="icon-tablet"></i> &lt;i class="icon-tablet"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-settings"></i> &lt;i class="icon-settings"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-bullets"></i> &lt;i class="icon-bullets"&gt;&lt;/i&gt;</p>
@@ -1041,15 +1053,18 @@
                 <p><i class="icon-candle"></i> &lt;i class="icon-candle"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-pushpin"></i> &lt;i class="icon-pushpin"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-iphone_shake"></i> &lt;i class="icon-iphone_shake"&gt;&lt;/i&gt;</p>
-                <p><i class="icon-pin_flag"></i> &lt;i class="icon-pin_flag"&gt;&lt;/i&gt;</p>
+                <p><i class="icon-pin_flag"></i> &lt;i class="icon-pin_flag"&gt;&lt;/i&gt;</p>       
+			</div>                
+                
+            <div class="large-4 columns">
                 <p><i class="icon-turtle"></i> &lt;i class="icon-turtle"&gt;&lt;/i&gt;</p>
-                <p><i class="icon-rabbit"></i> &lt;i class="icon-rabbit"&gt;&lt;/i&gt;</p>
+                <p><i class="icon-rabbit"></i> &lt;i class="icon-rabbit"&gt;&lt;/i&gt;</p>                
                 <p><i class="icon-globe"></i> &lt;i class="icon-globe"&gt;&lt;/i&gt;</p>
-                <p><i class="icon-briefcase"></i> &lt;i class="icon-briefcase"&gt;&lt;/i&gt;</p>
+                <p><i class="icon-briefcase"></i> &lt;i class="icon-briefcase"&gt;&lt;/i&gt;</p>                
                 <p><i class="icon-hdd"></i> &lt;i class="icon-hdd"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-thumbs_up"></i> &lt;i class="icon-thumbs_up"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-thumbs_down"></i> &lt;i class="icon-thumbs_down"&gt;&lt;/i&gt;</p>
-                <p><i class="icon-hand_right"></i> &lt;i class="icon-hand_right"&gt;&lt;/i&gt;</p>
+                <p><i class="icon-hand_right"></i> &lt;i class="icon-hand_right"&gt;&lt;/i&gt;</p> 
                 <p><i class="icon-hand_left"></i> &lt;i class="icon-hand_left"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-hand_up"></i> &lt;i class="icon-hand_up"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-hand_down"></i> &lt;i class="icon-hand_down"&gt;&lt;/i&gt;</p>
@@ -1124,6 +1139,94 @@
                 <p><i class="icon-rss"></i> &lt;i class="icon-rss"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-skype"></i> &lt;i class="icon-skype"&gt;&lt;/i&gt;</p>
                 <p><i class="icon-e-mail"></i> &lt;i class="icon-e-mail"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-dress"></i> &lt;i class="icon-dress"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-bathrobe"></i> &lt;i class="icon-bathrobe"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-shirt"></i> &lt;i class="icon-shirt"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-underwear"></i> &lt;i class="icon-underwear"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-log_in"></i> &lt;i class="icon-log_in&gt;&lt;/i&gt;</p>
+				<p><i class="icon-log_out"></i> &lt;i class="icon-log_out"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-exit"></i> &lt;i class="icon-exit"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-new_window_alt"></i> &lt;i class="icon-new_window_alt"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-video_sd"></i> &lt;i class="icon-video_sd"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-video_hd"></i> &lt;i class="icon-video_hd"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-subtitles"></i> &lt;i class="icon-subtitles"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sound_stereo"></i> &lt;i class="icon-sound_stereo"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sound_dolby"></i> &lt;i class="icon-sound_dolby"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sound_5_1"></i> &lt;i class="icon-sound_5_1"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sound_6_1"></i> &lt;i class="icon-sound_6_1"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sound_7_1"></i> &lt;i class="icon-sound_7_1"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-copyright_mark"></i> &lt;i class="icon-copyright_mark"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-registration_mark"></i> &lt;i class="icon-registration_mark"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-radar"></i> &lt;i class="icon-radar"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-skateboard"></i> &lt;i class="icon-skateboard"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-golf_course"></i> &lt;i class="icon-golf_course"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sorting"></i> &lt;i class="icon-sorting"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sort-by-alphabet"></i> &lt;i class="icon-sort-by-alphabet"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sort-by-alphabet-alt"></i> &lt;i class="icon-sort-by-alphabet-alt"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sort-by-order"></i> &lt;i class="icon-sort-by-order"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sort-by-order-alt"></i> &lt;i class="icon-sort-by-order-alt"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sort-by-attributes"></i> &lt;i class="icon-sort-by-attributes"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-sort-by-attributes-alt"></i> &lt;i class="icon-sort-by-attributes-alt"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-compressed"></i> &lt;i class="icon-compressed"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-package"></i> &lt;i class="icon-package"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-cloud_plus"></i> &lt;i class="icon-cloud_plus"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-cloud_minus"></i> &lt;i class="icon-cloud_minus"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-disk_save"></i> &lt;i class="icon-disk_save"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-disk_open"></i> &lt;i class="icon-disk_open"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-disk_saved"></i> &lt;i class="icon-disk_saved"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-disk_remove"></i> &lt;i class="icon-disk_remove"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-disk_import"></i> &lt;i class="icon-disk_import"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-disk_export"></i> &lt;i class="icon-disk_export"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-tower"></i> &lt;i class="icon-tower"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-send"></i> &lt;i class="icon-send"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_branch"></i> &lt;i class="icon-git_branch"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_create"></i> &lt;i class="icon-git_create"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_private"></i> &lt;i class="icon-git_private"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_delete"></i> &lt;i class="icon-git_delete"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_merge"></i> &lt;i class="icon-git_merge"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_pull_request"></i> &lt;i class="icon-git_pull_request"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_compare"></i> &lt;i class="icon-git_compare"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-git_commit"></i> &lt;i class="icon-git_commit"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-construction_cone"></i> &lt;i class="icon-construction_cone"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-shoe_steps"></i> &lt;i class="icon-shoe_steps"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-plus"></i> &lt;i class="icon-plus"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-minus"></i> &lt;i class="icon-minus"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-redo"></i> &lt;i class="icon-redo"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-undo"></i> &lt;i class="icon-undo"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-golf"></i> &lt;i class="icon-golf"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-hockey"></i> &lt;i class="icon-hockey"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-pipe"></i> &lt;i class="icon-pipe"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-wrench"></i> &lt;i class="icon-wrench"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-folder_closed"></i> &lt;i class="icon-folder_closed"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-phone_alt"></i> &lt;i class="icon-phone_alt"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-earphone"></i> &lt;i class="icon-earphone"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-floppy_disk"></i> &lt;i class="icon-floppy_disk"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-floppy_saved"></i> &lt;i class="icon-floppy_saved"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-floppy_remove"></i> &lt;i class="icon-floppy_removed"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-floppy_save"></i> &lt;i class="icon-floppy_save"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-floppy_open"></i> &lt;i class="icon-floppy_open"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-translate"></i> &lt;i class="icon-translate"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-fax"></i> &lt;i class="icon-fax"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-factory"></i> &lt;i class="icon-factory"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-shop_window"></i> &lt;i class="icon-shop_window"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-shop"></i> &lt;i class="icon-shop"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-kiosk"></i> &lt;i class="icon-kiosk"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-kiosk_wheels"></i> &lt;i class="icon-kiosk_wheels"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-kiosk_light"></i> &lt;i class="icon-kiosk_light"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-kiosk_food"></i> &lt;i class="icon-kiosk_food"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-transfer"></i> &lt;i class="icon-transfer"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-money"></i> &lt;i class="icon-money"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-header"></i> &lt;i class="icon-header"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-blacksmith"></i> &lt;i class="icon-blacksmith"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-saw_blade"></i> &lt;i class="icon-saw_blade"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-basketball"></i> &lt;i class="icon-basketball"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-server"></i> &lt;i class="icon-server"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-server_plus"></i> &lt;i class="icon-server_plus"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-server_minus"></i> &lt;i class="icon-server_minus"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-server_ban"></i> &lt;i class="icon-server_ban"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-server_flag"></i> &lt;i class="icon-server_flag"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-server_lock"></i> &lt;i class="icon-server_lock"&gt;&lt;/i&gt;</p>
+				<p><i class="icon-server_new"></i> &lt;i class="icon-server_new"&gt;&lt;/i&gt;</p>				
         	</div>
         </div>
 	</div>
