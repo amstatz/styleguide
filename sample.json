@@ -1,17 +1,116 @@
 [
-  {
-    "name": "Bench Press",
-    "image": "https://s3.amazonaws.com/media.uat.statzbeta.com/b26c042f-05a8-4a27-96b6-522592a2dda8-e1.jpg",
-    "instructions": "Step 1: Starting Position: Stand with your feet hip-width apart and your arms by your sides. Brace your abdominal muscles to stabilize your spine. Pull your shoulder blades down and back. Do not allow the low back to arch. Keep your chest lifted and your chin tilted up slightly.: Step 2: With a slight bend in the knee, shift your weight over your heels and slowly begin bending forward at the hips. Keep the abdominals braced and the back flat. Place your hands on the table (as illustrated). Keep the arms straight wand positioned so there is a straight line from the shoulders, through the elbows to the wrists.: Step 3: With your hands on the table, keep your legs directly under your hips. Lean back into your hips, straighten the legs and draw your torso toward the ground, maintaining a flat back. Keep the chin tucked into your neck to stabilize your cervical spine and to keep your head from dropping towards the floor.: Step 4: Hold the stretch position for 15-30 seconds. Repeat for a total of 2-4 repetitions. To increase the stretch of the latissimus dorsi (back) muscle, rotate your thumbs to point toward the ceiling.: Exercise Variation To further increase the stretch, supinate the turn the palms up to face the ceiling while leaning back into your hips.Exhale as you lean back into your hips. Be sure not to fully \"lock\" the knees while holding this position."
-  },
-  {
-    "name": "Squat",
-    "image": "https://s3.amazonaws.com/media.uat.statzbeta.com/f44108d8-e440-417a-805b-5d18db7bd268-e1.jpg",
-    "instructions": "Step 1: Starting Position: Stand directly in a square at one end of the ladder with your feet approximately hip-width apart.:  : Step 2: Bend your hips and knees, lowering into an athletic stance with your chest directly over your toes. Your arms should be bent, keeping the elbows at approximately ninety degrees to ensure that the swinging is coming from the shoulder joint and not from the elbows.:  : Step 3: Shift your bodyweight into the left leg. Pick up the right foot and place it in the square next to and right of the starting square. Shift your body to the right and into the next square of the ladder.:  : Step 4: Your right foot should hit the ground at the ball of the foot and roll all the way down to the heel. Once the right foot is planted, shift your body weight off of the left leg and place your weight on the right leg. Pick up your left foot to bring it into the same square as the right foot. Keep your hips and knees bent so that you maintain an athletic ready position throughout the length of the entire ladder.:  : Step 5: Continue to move down the ladder to your right, keeping your bodyweight on the left leg while picking up the right foot and pushing off with the left foot shifting your bodyweight over the right leg as you move through the ladder. Be sure to move both ways through the ladder. Once you've done a certain number of repetitions to the right, be sure to switch directions and do the same number of repetitions moving to your left (pushing off of the right foot). Exercise Variation As you improve your movement skills, dynamic balance and ability to move rapidly through the ladder, try not to look at your feet and keep your eyes on the horizon (where your opponents will be during an athletic competition)."
-  },
-  {
-    "name": "Deadlift",
-    "image": "https://s3.amazonaws.com/media.uat.statzbeta.com/432c10fe-c92b-4486-af85-6092f5ee2b33-e4.jpg",
-    "instructions": "Step 1: Starting Position: Stand facing a raised platform or a plyometric jump box. Place your right foot on the top of the step or box. Keep your left foot on the ground. Bend forward at the hips. Keep your right arm straight and behind you and your left arm bent and in front of you. Your head should be level and your gaze looking at a point on the ground two-to-three feet in front of you.:  : Step 2: Upward phase: Jump straight up into the air by explosively pushing your right foot into the top of the box making your entire body straight. Imagine you are a rocket being launched. As you push off, swing your right arm up and in front of your body to help generate upward momentum. As you jump into the air, bring your left leg up to keep your feet level with each other and parallel with the floor.:  : Step 3: Mid-air: While you are in the air adjust your legs to that you will land with your left foot on top of the platform and your right leg behind you on the floor.:  : Step 4: Landing: The most important components of the landing phase are correct foot position and control of the forward movement in your knees. Excessive forward movement in the knees places additional stress on the joint. Try to land softly and quietly on the mid-foot, rolling into the heels. Always push your hips back and down to absorb the impact of landing. Do not lock out your knees on your landing. Land with your trunk slightly forward, head aligned with your spine and back rigid or flat. Keep your abdominal / core muscles engaged, bracing your torso to protect your spine.: Exercise Variation When you are learning this exercise focus on the soft landing and reset your body in the correct position for the next jump and pause for a moment between jumps to ensure good form. As you improve, minimize the rest time so that you are rapidly moving from one jump to the next."
-  }
+   {
+      "id":4444557,
+      "name":"WebFit 1:1 (30 min)",
+      "staff":{
+         "id":194946,
+         "version":34,
+         "firstName":"LaMonica",
+         "lastName":"Toussaint",
+         "uuid":"5f06de3a-b3bd-471b-9d1e-f1728dc1e14a",
+         "object":"person",
+         "imageUrl":"https://s3.amazonaws.com/media.qa.statzbeta.com/5f06de3a-b3bd-471b-9d1e-f1728dc1e14a-a.png",
+         "email":"lamonica@ilmbfitness.com",
+         "name":"LaMonica Toussaint"
+      },
+      "business":{
+         "object":"businesses",
+         "id":2434603,
+         "version":0,
+         "name":"LaMonica Toussaint",
+         "uuid":"5f06de3a-b3bd-471b-9d1e-f1728dc1e14a",
+         "sellerId":194969,
+         "imageUrl":"https://s3.amazonaws.com/media.qa.statzbeta.com/5f06de3a-b3bd-471b-9d1e-f1728dc1e14a-gl.png",
+         "email":"lamonica@ilmbfitness.com",
+         "object":"businesses"
+      },
+      "start":1447077600,
+      "end":1447079400,
+      "object":"calendarEventSummary",
+      "recType":null,
+      "eventPid":null,
+      "eventLength":null,
+      "registrationId":4444558,
+      "cancelBy":1446991200,
+      "registrationStatus":"REGISTERED",
+      "type":"services",
+      "full":false,
+      "participant":false
+   },
+   {
+      "id":4444563,
+      "name":"1:1 Personal Training (ILMB Studio)",
+      "staff":{
+         "id":194946,
+         "version":34,
+         "firstName":"LaMonica",
+         "lastName":"Toussaint",
+         "uuid":"5f06de3a-b3bd-471b-9d1e-f1728dc1e14a",
+         "object":"person",
+         "imageUrl":"https://s3.amazonaws.com/media.qa.statzbeta.com/5f06de3a-b3bd-471b-9d1e-f1728dc1e14a-a.png",
+         "email":"lamonica@ilmbfitness.com",
+         "name":"LaMonica Toussaint"
+      },
+      "business":{
+         "object":"businesses",
+         "id":2434603,
+         "version":0,
+         "name":"LaMonica Toussaint",
+         "uuid":"5f06de3a-b3bd-471b-9d1e-f1728dc1e14a",
+         "sellerId":194969,
+         "imageUrl":"https://s3.amazonaws.com/media.qa.statzbeta.com/5f06de3a-b3bd-471b-9d1e-f1728dc1e14a-gl.png",
+         "email":"lamonica@ilmbfitness.com",
+         "object":"businesses"
+      },
+      "start":1447218000,
+      "end":1447221600,
+      "object":"calendarEventSummary",
+      "recType":null,
+      "eventPid":null,
+      "eventLength":null,
+      "registrationId":4444564,
+      "cancelBy":1447203600,
+      "registrationStatus":"REGISTERED",
+      "type":"services",
+      "full":false,
+      "participant":false
+   },
+   {
+      "id":4444566,
+      "name":"1:1 Personal Training (ILMB Studio)",
+      "staff":{
+         "id":194946,
+         "version":34,
+         "firstName":"LaMonica",
+         "lastName":"Toussaint",
+         "uuid":"5f06de3a-b3bd-471b-9d1e-f1728dc1e14a",
+         "object":"person",
+         "imageUrl":"https://s3.amazonaws.com/media.qa.statzbeta.com/5f06de3a-b3bd-471b-9d1e-f1728dc1e14a-a.png",
+         "email":"lamonica@ilmbfitness.com",
+         "name":"LaMonica Toussaint"
+      },
+      "business":{
+         "object":"businesses",
+         "id":2434603,
+         "version":0,
+         "name":"LaMonica Toussaint",
+         "uuid":"5f06de3a-b3bd-471b-9d1e-f1728dc1e14a",
+         "sellerId":194969,
+         "imageUrl":"https://s3.amazonaws.com/media.qa.statzbeta.com/5f06de3a-b3bd-471b-9d1e-f1728dc1e14a-gl.png",
+         "email":"lamonica@ilmbfitness.com",
+         "object":"businesses"
+      },
+      "start":1447221600,
+      "end":1447225200,
+      "object":"calendarEventSummary",
+      "recType":null,
+      "eventPid":null,
+      "eventLength":null,
+      "registrationId":4444567,
+      "cancelBy":1447207200,
+      "registrationStatus":"REGISTERED",
+      "type":"services",
+      "full":false,
+      "participant":false
+   }
 ]
